@@ -34,6 +34,13 @@ export default function Home() {
       <Head>
         <title>TechNook | Your Digital Haven For All Things TECH!</title>
         <link rel="icon" type="image/png" href="favicon.png" />
+
+        <meta property="og:title" content="TechNook" />
+        <meta
+          property="og:description"
+          content="TechNook | Your Digital Haven For All Things TECH!"
+        />
+        <meta property="og:image" content="technook_preview.png" />
       </Head>
       <div className="bg-white w-full min-h-screen">
         <Header />
