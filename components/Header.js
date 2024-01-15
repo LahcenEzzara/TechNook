@@ -100,19 +100,19 @@ const Header = () => {
               </div>
               <div
                 className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
-                href="#"
+                role="button"
               >
-                <Link href="/products/category">Categories</Link>
+                Categories
               </div>
               <a
                 className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
-                href="#"
+                role="button"
               >
                 Contact
               </a>
               <a
                 className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
-                href="#"
+                role="button"
               >
                 About
               </a>

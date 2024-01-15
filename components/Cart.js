@@ -26,15 +26,15 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
       <div className="flex justify-between mt-6">
         <div className="flex">
           <Image
-            src="/images/react.jpg"
+            src="/images/arduino-uno.jpg"
             height={80}
             width={80}
             objectFit="cover"
             className="rounded"
-            alt="React T-Shirt"
+            alt="Arduino UNO"
           />
           <div className="mx-3">
-            <h3 className="text-sm text-gray-600">React T-Shirt</h3>
+            <h3 className="text-sm text-gray-600">Arduino UNO</h3>
             <div className="flex items-center mt-2">
               <button className="text-gray-500 focus:outline-none focus:text-gray-600">
                 <PlusCircleIcon className="h-5 w-5" />
@@ -46,20 +46,20 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
             </div>
           </div>
         </div>
-        <span className="text-gray-600">$39</span>
+        <span className="text-gray-600">78 DH</span>
       </div>
       <div className="flex justify-between mt-6">
         <div className="flex">
           <Image
-            src="/images/html.jpg"
+            src="/images/servo-motor.jpg"
             height={80}
             width={80}
             objectFit="cover"
             className="rounded"
-            alt="HTML T-Shirt"
+            alt="Servo Motor"
           />
           <div className="mx-3">
-            <h3 className="text-sm text-gray-600">HTML T-Shirt</h3>
+            <h3 className="text-sm text-gray-600">Servo Motor</h3>
             <div className="flex items-center mt-2">
               <button className="text-gray-500 focus:outline-none focus:text-gray-600">
                 <PlusCircleIcon className="h-5 w-5" />
@@ -71,20 +71,20 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
             </div>
           </div>
         </div>
-        <span className="text-gray-600">$39</span>
+        <span className="text-gray-600">30 DH</span>
       </div>
       <div className="flex justify-between mt-6">
         <div className="flex">
           <Image
-            src="/images/mongodb.png"
+            src="/images/usb-cable.jpg"
             height={80}
             width={80}
             objectFit="cover"
             className="rounded"
-            alt="MongoDB T-Shirt"
+            alt="USB Cable"
           />
           <div className="mx-3">
-            <h3 className="text-sm text-gray-600">MongoDB T-Shirt</h3>
+            <h3 className="text-sm text-gray-600">USB Cable</h3>
             <div className="flex items-center mt-2">
               <button className="text-gray-500 focus:outline-none focus:text-gray-600">
                 <PlusCircleIcon className="h-5 w-5" />
@@ -96,7 +96,7 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
             </div>
           </div>
         </div>
-        <span className="text-gray-600">$39</span>
+        <span className="text-gray-600">75 DH</span>
       </div>
       <div className="mt-8">
         <form className="flex items-center justify-center">
@@ -105,9 +105,12 @@ const Cart = ({ isCartOpen, setIsCartOpen }) => {
             type="text"
             placeholder="Add promocode"
           />
-          <button className="ml-3 flex items-center px-3 py-2 bg-green-600 text-white text-sm uppercase font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500">
+          <a
+            className="ml-3 flex items-center px-3 py-2 bg-green-600 text-white text-sm uppercase font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500"
+            role="button"
+          >
             <span>Apply</span>
-          </button>
+          </a>
         </form>
       </div>
       <a className="flex items-center justify-center mt-4 px-3 py-2 bg-green-600 text-white text-sm uppercase font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500 cursor-pointer">

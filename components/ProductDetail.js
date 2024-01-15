@@ -15,8 +15,8 @@ const ProductDetail = ({ product }) => {
         />
       </div>
       <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
-        <h3 className="text-gray-700 uppercase text-lg">{product.name}</h3>
-        <span className="text-gray-500 mt-3">${product.price}</span>
+        <h3 className="text-gray-700 text-lg font-bold">{product.name}</h3>
+        <span className="text-gray-500 mt-3">{product.price} DH</span>
         <hr className="my-3" />
         <div className="mt-2">
           <label className="text-gray-700 text-sm" htmlFor="count">

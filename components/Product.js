@@ -20,8 +20,8 @@ const Product = ({ product }) => {
           </button>
         </div>
         <div className="px-5 py-3">
-          <h3 className="text-gray-700 uppercase">{product.name}</h3>
-          <span className="text-gray-500 mt-2">${product.price}</span>
+          <h3 className="text-gray-700 font-bold">{product.name}</h3>
+          <span className="text-gray-500 mt-2">{product.price} DH</span>
         </div>
       </div>
     </Link>
