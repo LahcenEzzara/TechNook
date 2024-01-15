@@ -32,8 +32,8 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>TechNook | Your Digital Haven For All Things TECH!</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
       </Head>
       <div className="bg-white w-full min-h-screen">
         <Header />
